@@ -1,0 +1,38 @@
+{
+  "name": "basics-menus",
+  "author": "kosala.nuwan@gmail.com",
+  "description": "This Bot demonstrates how to create a simple menu for a bot.",
+  "homepage": "https://github.com/alertbox/bot-examples-ts#readme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "bot",
+    "microsoft-bot-framework",
+    "typescript",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alertbox/bot-examples-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alertbox/bot-examples-ts/issues"
+  },
+  "main": "dist/index",
+  "typings": "dist/index",
+  "scripts": {
+    "start": "forever -w ./dist/.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.4",
+    "@types/node": "^7.0.31",
+    "forever": "^0.15.3"
+  },
+  "dependencies": {
+    "@types/restify": "^4.3.4",
+    "botbuilder": "^3.8.4",
+    "dotenv-extended": "^2.0.1",
+    "restify": "^4.3.0"
+  }
+}
