@@ -68,6 +68,9 @@ bot.dialog('/roll', [
     },
     function (session, results) {
         if (results.response && results.response > 0) {
+            if (results.response > 5) {
+                session.sendTyping();
+            }
             var series = "";
             for (var roll = void 0, index = 0; index < results.response; index++) {
                 roll = Math.floor(Math.random() * 6) + 1;

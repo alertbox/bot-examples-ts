@@ -78,7 +78,13 @@ bot.dialog('/roll', [
         Prompts.number(session, `How many dice should I roll?`);
     },
     (session: Session, results: IDialogResult<number>) => {
+
         if (results.response && results.response > 0) {
+
+            if (results.response > 5) {
+                session.sendTyping();
+            }
+
             let series = ``;
             for (let roll: number, index = 0; index < results.response; index++) {
                 roll = Math.floor(Math.random() * 6) + 1;
@@ -86,6 +92,7 @@ bot.dialog('/roll', [
             }
             session.send(`I rolled: ${series}`)
                 .endDialog();
+
         } else {
             session.send(`Ummm... Ok... I rolled air.`)
                 .endDialog();
