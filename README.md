@@ -20,6 +20,15 @@ npm start
 4. Install the [Bot Emulator]()
 5. [Play with the bot]() example
 
+# Basic Techniques
+
+These examples show the basics techniques needed to build a great bot. All the examples written using TypeScript and can be executed from Bot Emulator.
+
+|**Example**     | **Description**                                   
+| ---------------| ---------------------------------------------
+|[basics-waterfall](https://github.com/alertbox/bot-examples-ts/tree/master/basics-waterfall) | Shows how to use a waterfall to prompt the user with a series of questions.
+
+
 # Contributing
 
 If you are interested in fixing issues and contributing directly to the code base, please see the documentation How to Contribute, which covers the followings;
