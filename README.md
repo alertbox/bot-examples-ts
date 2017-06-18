@@ -26,7 +26,7 @@ These examples show the basics techniques needed to build a great bot. All the e
 
 |**Example**     | **Description**                                   
 | ---------------| ---------------------------------------------
-|[hello-ech](https://github.com/alertbox/bot-examples-ts/tree/master/hello-echo) | A simple echo bot for the Microsoft Bot Framework.
+|[hello-echo](https://github.com/alertbox/bot-examples-ts/tree/master/hello-echo) | A simple echo bot for the Microsoft Bot Framework.
 |[basics-waterfall](https://github.com/alertbox/bot-examples-ts/tree/master/basics-waterfall) | Shows how to use a waterfall to prompt the user with a series of questions.
 
 
