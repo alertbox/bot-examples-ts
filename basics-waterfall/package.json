@@ -18,10 +18,10 @@
   "bugs": {
     "url": "https://github.com/alertbox/bot-examples-ts/issues"
   },
-  "main": "dist/index",
-  "typings": "dist/index",
+  "main": "./built/index",
+  "typings": "./built/index",
   "scripts": {
-    "start": "forever -w ./dist/.",
+    "start": "forever -w ./built/.",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
