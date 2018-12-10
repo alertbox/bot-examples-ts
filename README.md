@@ -7,7 +7,7 @@ Bot Builder for Node.js examples using TypeScript are organized into groups and 
 1. Install a recent version of [NodeJS]()
 2. Checkout the code and install dependencies
 ```
-git clone https://github.com/alertbox/bot-examples-ts
+git clone --recurse-submodules -j8 https://github.com/alertbox/bot-examples-ts
 cd bot-examples-ts
 ```
 3. Compile and run example
@@ -26,9 +26,9 @@ These examples show the basics techniques needed to build a great bot. All the e
 
 |**Example**     | **Description**                                   
 | ---------------| ---------------------------------------------
-|[hello-echo](https://github.com/alertbox/bot-examples-ts/tree/master/hello-echo) | A simple echo bot for the Microsoft Bot Framework.
-|[basics-waterfall](https://github.com/alertbox/bot-examples-ts/tree/master/basics-waterfall) | Shows how to use a waterfall to prompt the user with a series of questions.
-|[basics-menus](https://github.com/alertbox/bot-examples-ts/tree/master/basics-menus) | Shows how to create a simple menu system for a bot.
+|[hello-echo](https://github.com/alertbox/bot-hello-echo-ts) | A simple echo bot for the Microsoft Bot Framework.
+|[basics-waterfall](https://github.com/alertbox/bot-basics-waterfall-ts) | Shows how to use a waterfall to prompt the user with a series of questions.
+|[basics-menus](https://github.com/alertbox/bot-basics-menus-ts) | Shows how to create a simple menu system for a bot.
 
 
 # Contributing
