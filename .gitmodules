@@ -1,0 +1,9 @@
+[submodule "hello-echo"]
+	path = hello-echo
+	url = https://github.com/alertbox/bot-hello-echo-ts
+[submodule "basics-waterfall"]
+	path = basics-waterfall
+	url = https://github.com/alertbox/bot-basics-waterfall-ts
+[submodule "basics-menus"]
+	path = basics-menus
+	url = https://github.com/alertbox/bot-basics-menus-ts
