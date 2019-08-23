@@ -1,5 +1,4 @@
 # Overview
-
 Bot Builder for Node.js examples using TypeScript are organized into groups and designed to illustrate the techniques needed to build great bots. To use the samples clone our GitHub repository using Git.
 
 ## Build and Run from Source
